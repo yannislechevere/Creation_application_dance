@@ -44,4 +44,4 @@ Le projet s’articule en **deux grandes étapes** :
 # Auteurs
 
 Projet réalisé en trinôme :   
-**CHAUVEL Arthur**, **LE CHEVERE Yannis** et**LE MOING Timéo**
+**CHAUVEL Arthur**, **LE CHEVERE Yannis** et **LE MOING Timéo**
