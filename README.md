@@ -21,7 +21,7 @@ Le projet s’articule en **deux grandes étapes** :
 >> - Les **modélisations UML** : diagrammes de classes, de séquence, etc.
 >> - Les documents d’**analyse et conception**
 >> 
->> 🔗 [Dossier Application](https://github.com/yannislechevere/SAE-2.01/tree/master/Exercices)
+>> 📂 [Dossier Application](https://github.com/yannislechevere/SAE-2.01/tree/master/Exercices)
 >
 > </details>
 
@@ -35,7 +35,7 @@ Le projet s’articule en **deux grandes étapes** :
 >> - Traduire ces diagrammes en **code Java**
 >> - Mettre en œuvre des structures de classes, relations, comportements selon les modèles
 >> 
->> 🔗 [Dossier Exercices UML](https://github.com/yannislechevere/SAE-2.01/tree/master/Exercices)
+>> 📂 [Dossier Exercices UML](https://github.com/yannislechevere/SAE-2.01/tree/master/Exercices)
 >
 > </details>
 
