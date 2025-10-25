@@ -1,4 +1,4 @@
-# 🎼 HARMONIE – Gestion du plan de table pour un gala (Java)
+# 🎼 HARMONIE – Application de dance (Java)
 
 Ce projet est une **implémentation d'une petite partie d'une application plus large de danse**, centrée sur la **gestion du plan de table pour un gala**.  
 L'application est développée en **Java** en groupe de trois.  
