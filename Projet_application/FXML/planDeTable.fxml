@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="20.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vue.CtrlPlanTable">
+   <children>
+      <Label alignment="CENTER" prefHeight="50.0" prefWidth="600.0" styleClass="grosTitre" stylesheets="@style.css" text="Plan des tables" textFill="WHITE">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER" prefWidth="600.0" spacing="20.0" stylesheets="@style.css">
+         <children>
+            <Label alignment="CENTER" stylesheets="@style.css" text="Cliquez sur le numéro de la table que vous souhaitez ouvrir" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <HBox alignment="CENTER" spacing="20.0">
+               <children>
+                  <Label text="Table complète : ">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="40.0" style="-fx-background-color: #A42999; -fx-text-fill: white;" stylesheets="@style.css" text="X" />
+                  <Label text="Table incomplète  : ">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="40.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" text="X" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label text="Table de 6 Personnes :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" prefWidth="600.0" spacing="10.0">
+         <children>
+            <Button fx:id="bn1" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="40.0" style="-fx-border-radius: 50;" stylesheets="@style.css" text="1" />
+            <Button fx:id="bn2" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="40.0" style="-fx-border-radius: 50;" stylesheets="@style.css" text="2" />
+            <Button fx:id="bn3" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="40.0" stylesheets="@style.css" text="3" />
+            <Button fx:id="bn4" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="40.0" stylesheets="@style.css" text="4" />
+            <Button fx:id="bn5" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="40.0" stylesheets="@style.css" text="5" />
+            <Button fx:id="bn6" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="40.0" stylesheets="@style.css" text="6" />
+            <Button fx:id="bn7" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="40.0" stylesheets="@style.css" text="7" />
+            <Button fx:id="bn8" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="40.0" stylesheets="@style.css" text="8" />
+            <Button fx:id="bn9" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="40.0" stylesheets="@style.css" text="9" />
+            <Button fx:id="bn10" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="40.0" styleClass="label" stylesheets="@style.css" text="10" />
+         </children>
+      </HBox>
+      <Label text="Table de 12 Personnes :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" prefWidth="600.0" spacing="10.0">
+         <children>
+            <Button fx:id="bn11" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="11" />
+            <Button fx:id="bn12" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="12" />
+            <Button fx:id="bn13" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="13" />
+            <Button fx:id="bn14" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="14" />
+            <Button fx:id="bn15" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="15" />
+            <Button fx:id="bn16" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="16" />
+            <Button fx:id="bn17" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="17" />
+            <Button fx:id="bn18" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="18" />
+            <Button fx:id="bn19" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="19" />
+            <Button fx:id="bn20" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="20" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefWidth="600.0" spacing="10.0">
+         <children>
+            <Button fx:id="bn21" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" style="-fx-border-radius: 50;" text="21" />
+            <Button fx:id="bn22" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="22" />
+            <Button fx:id="bn23" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="23" />
+            <Button fx:id="bn24" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="24" />
+            <Button fx:id="bn25" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="25" />
+            <Button fx:id="bn26" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="26" />
+            <Button fx:id="bn27" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="27" />
+            <Button fx:id="bn28" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefWidth="60.0" text="28" />
+            <Button fx:id="bn29" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="29" />
+            <Button fx:id="bn30" mnemonicParsing="false" onAction="#ouvrirInfoTable" prefHeight="25.0" prefWidth="60.0" text="30" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_RIGHT">
+         <children>
+            <Button fx:id="BnRetour" mnemonicParsing="false" onAction="#retourAccueil" prefWidth="100.0" styleClass="bnRetour" stylesheets="@style.css" text="RETOUR">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
